@@ -1,4 +1,4 @@
-## brunch-
+## Brunch Tumblr Theme Parser
 Adds [Tumblr Theme Parser](https://github.com/carrot/tumblr-theme-parser) support to [Brunch](https://github.com/brunch/brunch).
 
 ## Usage
@@ -11,10 +11,13 @@ Or, do manual install:
 `"brunch-tumblr-theme-parser": "SilbinaryWolf/brunch-tumblr-theme-parser"`.
 
 ## Config
-```
-tumblrThemeParser: {
-  // JSON file from: https://www.tumblr.com/customize_api/demo_content/<name of blog>
-  jsonFile: 'app/data/tumblrdata.json',
+
+Configure a jsonFile in your app folder downloaded from "https://www.tumblr.com/customize_api/demo_content/<name of blog>"
+
+```javascript
+plugins: {
+	tumblrThemeParser: {
+		jsonFile: 'app/data/tumblrdata.json'
+	}
 }
 ```
-
