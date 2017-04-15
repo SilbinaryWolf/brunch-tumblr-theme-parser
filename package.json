@@ -1,6 +1,6 @@
 {
   "name": "brunch-tumblr-theme-parser",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Adds tumblr-theme-parser support to brunch.",
   "author": "SilbinaryWolf",
   "homepage": "https://github.com/SilbinaryWolf/brunch-tumblr-theme-parser",
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/SilbinaryWolf/brunch-tumblr-theme-parser"
   },
-  "devDependencies": {
+  "dependencies": {
     "tumblr-theme-parser": "^1.0.0"
   }
 }
